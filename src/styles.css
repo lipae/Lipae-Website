@@ -1,3 +1,22 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+/* to overwrite the bootstrap settings of "container-class" --> to make the boxes wide as the window and have no padding on the egdes left and right*/
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  max-width: 100%;
+}
+
+.border {
+  background-color: rgb(76, 133, 151);
+}
+
+#season,
+#type-of-garment,
+#material {
+  color: white;
+  text-decoration: none;
 }
