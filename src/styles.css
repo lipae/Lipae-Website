@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* to overwrite the bootstrap settings of "container-class" --> to make the boxes wide as the window and have no padding on the egdes left and right*/
@@ -9,14 +9,69 @@ body {
   padding-left: 0px;
   max-width: 100%;
 }
-
 .border {
-  background-color: rgb(76, 133, 151);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
 }
 
-#season,
-#type-of-garment,
-#material {
+#winter-box {
+  background-image: url("/img/winter_eli.jpg");
+  background-size: cover;
+}
+
+#summer-box {
+  background-image: url("/img/summer_sam.jpg");
+  background-size: cover;
+}
+
+#tops-box {
+  background-image: url("/img/tops.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#dresses-box {
+  background-image: url(/img/dresses_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bottoms-box {
+  background-image: url(/img/bottoms.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#material-box {
+  background-image: url(/img/material_leinen.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  font-size: 100%;
+}
+
+a:hover {
+  cursor: pointer;
+  font-size: 150%;
+  color: pink;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    text-align: center;
+  }
+  h2 {
+    font-size: smaller;
+  }
+  .border {
+    height: 300px;
+  }
 }
