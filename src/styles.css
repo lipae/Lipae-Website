@@ -22,35 +22,35 @@ body {
 }
 
 #winter-box {
-  background-image: url("/img/winter_eli.jpg");
+  background-image: url("../img/winter_eli.jpg");
   background-size: cover;
 }
 
 #summer-box {
-  background-image: url("/img/summer_sam.jpg");
+  background-image: url("../img/summer_sam.jpg");
   background-size: cover;
 }
 
 #tops-box {
-  background-image: url("/img/tops.jpg");
+  background-image: url("../img/tops.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #dresses-box {
-  background-image: url(/img/dresses_2.jpg);
+  background-image: url("../img/dresses_2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #bottoms-box {
-  background-image: url(/img/bottoms.jpg);
+  background-image: url("../img/bottoms.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #material-box {
-  background-image: url(/img/material_leinen.jpg);
+  background-image: url("../img/material_leinen.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -69,7 +69,7 @@ a:hover {
 }
 
 #about-page {
-  background-image: url(/img/wald.jpg);
+  background-image: url("../img/wald.jpg");
   background-size: cover;
   background-position: bottom;
 }
